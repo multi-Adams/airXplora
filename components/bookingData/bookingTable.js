@@ -1,4 +1,10 @@
-function Editable() {
+import React from 'react'
+import MaterialTable from 'material-table'
+
+
+
+
+export default function Editable() {
   const { useState } = React;
 
   const [columns, setColumns] = useState([
